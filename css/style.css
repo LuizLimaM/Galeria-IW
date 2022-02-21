@@ -8,13 +8,32 @@ body{
     font-weight: bolder;
 }
 
-h1,h2,h3,h4,h5{
+
+h1{
     font-size: 2em;
     color: #fcd477;
     font-weight: bolder;
     text-align: center;
-    padding-top: 6%;
-    padding-bottom: 8%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+h2{
+    font-size: 1.5em;
+    color: #fcd477;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+h5{
+    font-size: 1.3em;
+    color: #fcd477;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 
@@ -24,21 +43,12 @@ p,a,li{
     font-size: 1em;
 }
 
-.icone{
-    border-radius: 200px;
-    transition: transform .3s;
-    margin: 0 auto;
-}
-  
-.icone:hover {
-    -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
-}
 
 .card{
     margin-top: 10%;
-    margin-bottom: 1%;
+    margin-bottom: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
     background-color: 	#393852;
 
 }
@@ -53,7 +63,7 @@ p,a,li{
 .rodape{
     color: 	#fcd477;
     font-weight: bolder;
-    font-size: 1.5em;
+    font-size: 1.2em;
     background-color:	#393852;
     text-align: center;
     padding: 1%;
